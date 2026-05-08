@@ -6,7 +6,8 @@ TMPDIR="/tmp"
 FANCY="false"
 bmsg="Usage: ./aframes.sh [OPTIONS...] FILE_A FILE_B"
 hmsg="${bmsg}\n\nOptions:\n  -c COUNT \tSet the number of frames to extract\n  -o OUTDIR\tSet the output directory\n  -t TMPDIR\t\
-Set temporary directory\n  -a  \t\tCheck the two neighbouring frames from B to see if they better match A on extraction\n"
+Set temporary directory\n  -a  \t\tCheck the two neighbouring frames from B to see if they better match A on extraction\n\
+-h  \t\tDisplay this help message\n"
 while getopts "hc:o:t:a" opt; do
     case "$opt" in
         h) printf "$hmsg"; exit 0 ;;
