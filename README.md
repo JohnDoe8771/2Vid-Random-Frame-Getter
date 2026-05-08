@@ -8,7 +8,7 @@ Options:
   -c COUNT 	   Set the number of frames to extract
   -o OUTDIR	   Set the output directory
   -t TMPDIR	   Set temporary directory
-  -a  		     Check the two neighbouring frames from B to see if they better match A on final extraction
+  -a  		   Check the two neighbouring frames from B to see if they better match A on final extraction
 ```
 
 I am finished with the project I made this for, so no updates are forthcoming.
