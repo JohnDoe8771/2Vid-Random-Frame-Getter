@@ -9,6 +9,7 @@ Options:
   -o OUTDIR	   Set the output directory
   -t TMPDIR	   Set temporary directory
   -a  		   Check the two neighbouring frames from B to see if they better match A on final extraction
+  -h  		   Display this help message
 ```
 
 I am finished with the project I made this for, so no updates are forthcoming.
